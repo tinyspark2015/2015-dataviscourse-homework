@@ -1,6 +1,6 @@
 Homework 4
 ===
-*This homework is due on Tuesday, October 6, 11:59 PM. Value: 6%*
+*This homework is due on Sunday, October 11, 11:59 PM. Value: 6%*
 
 In this homework assignment you will create another interactive visualization using [D3.js](http://d3js.org). This time, you will gain a little more exposure to data wrangling, as well as a few more interaction techniques. You will also be working in an example of a larger project that utilizes other libraries and frameworks like jQuery and Bootstrap (while you are not required to learn how to use them, reading and experimenting is encouraged!). While you will end up writing only a small amount of code for this assignment, there is much more to read. Also keep in mind that you will only have a week and a half to finish it, so make sure to get started in time.
 
@@ -100,8 +100,7 @@ Some contextual information:
 - The daily sums of votes for different education levels of participants are stored in the array `"education"`. Each object in this array represents one education level (field `"education"`) and it's respective count (field `"count(*)"`)
 - Equivalent to education levels, counts for each year of age are stored in the array `"age"`.
 
-Make sure to unpack the file `data/perDayData.json.zip` as `data/perDayData.json`. You don't need to add and commit the unzipped file to your repository; this will keep the size of your repository smaller.
-
+Make sure to unpack the file `data/perDayData.json.zip` as `data/perDayData.json`.
 
 A second file (**MyWorld_fields.json**) contains meta-information about our data. For now, we are interested in the `"priorities"` object that gives us information for each priority. Again, the priorities are numbered from 0 (priority 1) to 15 (priority 16). You can easily access information for priority 6 via `priority["5"]`. 
 
